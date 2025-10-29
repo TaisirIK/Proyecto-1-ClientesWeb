@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <title>Proyecto#1 Calculadora de Matrices</title>
+  <link rel="stylesheet" href="style.css" >
+</head>
+<body>
+  <h1>Calculadora de Matrices</h1>
+
+  <section class="controles">
+    <label for="size">Tamaño de la matriz (2-10):</label>
+    <input type="number" id="size" min="2" max="10"  >
+    <button onclick="generarMatrices()">Generar matrices</button>
+    <button onclick="limpiarMatrices()">Limpiar</button>
+  </section>
+
+  <section class="matrices">
+    <div>
+      <h2>Matriz A</h2>
+      <div id="matrizA" class="grid"></div>
+    </div>
+    <div>
+      <h2>Matriz B</h2>
+      <div id="matrizB" class="grid"></div>
+    </div>
+  </section>
+
+  <section id="mensaje" class="mensaje"></section>
+
+  <script src="matriz.js"></script>
+</body>
+</html>

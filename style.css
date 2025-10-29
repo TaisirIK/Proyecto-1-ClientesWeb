@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #a8b1e0;
+  color: #32323d;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.controles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.controles input,
+.controles button {
+  padding: 8px;
+  font-size: 16px;
+  background-color: #9292ca;
+}
+
+.matrices {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;;
+}
+
+.grid {
+  display: grid;
+  gap: 5px;
+  margin-top: 10px;
+}
+
+.grid input {
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  font-size: 16px;
+  background-color: #9292ca
+}
+
+.mensaje {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  color: red;
+}
