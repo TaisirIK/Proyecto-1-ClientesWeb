@@ -13,6 +13,7 @@
     <label for="size">Tamaño de la matriz (2-10):</label>
     <input type="number" id="size" min="2" max="10"  >
     <button onclick="generarMatrices()">Generar matrices</button>
+    <button onclick="llenarAleatorio()">Aleatorio A y B</button>
     <button onclick="limpiarMatrices()">Limpiar</button>
   </section>
 
@@ -31,9 +32,12 @@
   <h2>Operaciones</h2>
   <button onclick="operar('sumar')">Sumar A + B</button>
   <button onclick="operar('restar')">Restar A - B</button>
-  <button onclick="operar('multiplicar')">Multiplicar A × B</button>
-  <button onclick="operar('escalar')">Escalar × A</button>
+  <button onclick="operar('multiplicar')">Multiplicar A x B</button>
+  <button onclick="operar('escalar')">Escalar x A</button>
   <button onclick="operar('transponer')">Transponer A</button>
+  <button onclick="operar('determinante')">Determinante de A</button>
+  <button onclick="operar('inversa')">Inversa de A</button>
+  <button onclick="matrizidentidad('identidad')">Identidad en A</button>
 </section>
 
 <section id="resultado" class="resultado"></section>
